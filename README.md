@@ -1,2 +1,2 @@
-# Colaborativo-2425
-Práctica de proyecto Colaborativo usando fork y pull request
+# Proyecto Colaborativo CURSO 24-25
+Este proyecto quiere que practiqueis el flujo de trabajo colaborativo con Git y GitHub.
