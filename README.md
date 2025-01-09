@@ -1,2 +1,2 @@
 # Proyecto Colaborativo CURSO 24-25
-Este proyecto quiere que practiqueis el flujo de trabajo colaborativo con Git y GitHub.
+Alejandro Martínez Aguiñiga - 1910520
