@@ -1,2 +1,2 @@
-# Proyecto Colaborativo CURSO 24-25
-Este proyecto quiere que practiqueis el flujo de trabajo colaborativo con Git y GitHub.
+# Frank Steban Soto Barreto
+## 11552449
