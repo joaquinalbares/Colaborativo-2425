@@ -1,2 +1,4 @@
-# Proyecto Colaborativo CURSO 24-25
-Este proyecto quiere que practiqueis el flujo de trabajo colaborativo con Git y GitHub.
+## JOSE FELIX RAMIREZ RIOS ##
+*edad:*18.
+*domicilio:* **calle doctor fleming numero 15**
+
