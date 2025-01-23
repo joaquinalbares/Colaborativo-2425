@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+        <head>
+    <meta charset="UTF-8" />
+    <title>PONTE EN FORMA!!</title>
+<style>
+  a {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  body{
+  height: 2700px;
+  color:  white;
+  background-color: red; /*  */
+  background-image: linear-gradient(#000000, #051041);
+}
+  
+        table, th, td {
+          border: 1px solid #050505;
+          border-collapse: collapse;
+        }
+        th, td {
+          background-color: #d1a62f;
+        }
+#formulario {
+  text-shadow: 2px, 2px, 4px;
+  border-top-style: solid;
+  border-top-color: hwb(59 9% 2%) ;
+  border-bottom-style: solid;
+  border-bottom-color: hwb(59 9% 2%) ;
+  border-left-style: solid;
+  border-left-color: hwb(59 9% 2%) ;
+  border-right-style: solid;
+  border-right-color: hwb(59 9% 2%) ;
+}
+#entrenamientodefuerza {
+  text-shadow: 2px 2px 4px;
+}
+#lunes  {
+  text-shadow: 2px 2px 4px;
+}
+#martes {
+  text-shadow: 2px 2px 4px;
+}
+#jueves {
+  text-shadow: 2px 2px 4px;
+}
+#viernes {
+  text-shadow: 2px 2px 4px;
+}
+</style>
+        </head>
+<body>
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulario Ejemplo</title>
+      <link rel="stylesheet" href="estilos.css">
+  </head>
+  
+  
+     <div id="formulario"> <h1>Formulario para identificarte y conocer tus objetivos</h1>
+  
+      <!-- Formulario con método POST para enviar los datos -->
+      <form action="/submit" method="POST">
+  
+          <!-- Campo para el nombre -->
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+  
+          <!-- Campo para el correo electrónico -->
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+  
+          
+          <!-- Campo de edad  -->
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" name="edad" min="0" max="200" placeholder="Edad" required>
+
+          <!-- Peso KG-->
+          <label for="peso">Peso KG:</label>
+          <input type="number" id="peso" name="pesop" min="0" max="400" placeholder="peso" required>
+
+          <!-- Altura -->
+          <label for="altura">Altura cm:</label>
+          <input type="number" id="altura" name="altura" min="0" max="300" placeholder="altura" required>
+
+
+          <!-- Selección de genero -->
+          
+              <legend><h2>Género:</h2></legend>
+              <p><label for="masculino">Masculino</label>
+              <input type="radio" id="masculino" name="genero" value="masculino"></p>
+              <p></p><label for="femenino">Femenino</label>
+              <input type="radio" id="femenino" name="genero" value="femenino"></p>
+              <p><label for="cose">Cosa rara</label>
+              <input type="radio" id="otro" name="genero" value="cosa rara"></p>
+          
+  
+          <!-- Intereses -->
+          
+              <legend><h2>Intereses:</h2></legend>
+              <p><label for="perdida de grasa">Perdida de grasa</label>
+              <input type="checkbox" id="deporte" name="intereses" value="perdida de grasa"></p>
+             <p><label for="tecnologia">Ganancia de masa muscular</label>
+              <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia"></p>
+              <p><label for="Mejorar composicion corporal">Mejorar composicion corporal</label>
+              <input type="checkbox" id="Mejorar composicion corporal" name="intereses" value="Mejorar composicion corporal"></p>
+          
+  
+          <!-- habitos  -->
+          <label for="pais">Con que frecuencia haces deporte:</label>
+          <select id="frecuencia" name="frecuencia">
+              <option value="soy sedentario">Soy sedentario</option>
+              <option value="muy poco">Muy poco</option>
+              <option value="regularmente">Regularmente</option>
+              <option value="A diario">Todos los dias</option>
+          </select>
+  
+          <!-- observaciones -->
+          <label for="esquibe aqui tus habitos de deporte ">observaciones:</label>
+          <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios aquí"></textarea>
+  
+          <!-- Botones de enviar y resetear -->
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+  
+      </form>
+      
+    </div>
+    <center><h1 id="entrenamientodefuerza">ENTRENAMIENTO DE FUERZA</h1></center>
+
+    <table style="width:80%">
+        <h2 id="lunes">Lunes</h2>
+
+  <img src="https://www.zonawod.com/wp-content/uploads/press-banca-plano-barra-629x420.jpeg"alt="Trulli" width="450" height="250">  
+        <tr align="center">
+          <th>Ejercicio</th>
+          <th>Series</th> 
+          <th>Repeticiones</th>
+        </tr>
+        <tr align="center">
+          <td>Press Banca con barra (libre)</td>
+          <td>4</td>
+          <td>4-6</td>
+        </tr>
+        <tr align="center">
+          <td>Press Inclinado con mancuernas</td>
+          <td>3</td>
+          <td>5-8</td>
+        </tr>
+        <tr align="center">
+          <td>Cruce de poleas/Aperturas en maquina</td>
+          <td>3</td>
+          <td>10-12</td>
+        </tr>
+        <tr align="center">
+          <td>Press Militar</td>
+          <td>3</td>
+          <td>6-10</td>
+        </tr>
+        <tr align="center">
+          <td>Elevacion Lateral en polea</td>
+          <td>4</td>
+          <td>8-10</td>
+        <tr align="center">
+          <td>Extension triceps con barra hacia abajo</td>
+          <td>3</td>
+          <td>8-12</td>
+        </tr>
+        <tr align="center">
+          <td>Extension triceps hacia arriba</td>
+          <td>3</td>
+          <td>8-12</td>
+        </tr>  
+    </table>
+    <a href="https://blogladiadoresfit.com/7-ejercicios-para-pecho-gym/">Aqui algunas iagenes de los ejercicios</a>
+
+    <h2 id="martes">Martes</h2>
+    <img src="https://th.bing.com/th/id/R.ebde66aca7cf63f4056fc094af6df4e1?rik=GlLMWdIkCKiB2A&riu=http%3a%2f%2fwww.sofimo.de%2fwp-content%2fuploads%2f2015%2f01%2fSchultertraining.jpeg&ehk=T64tn093e4rpv%2fGF9sEd3%2bsPIovs%2bkB9pUNKChTs1%2b0%3d&risl=&pid=ImgRaw&r=0"width="500" height="300">
+    <table style="width:80%">
+        <tr align="center">
+            <th>Ejercicio</th>
+            <th>Series</th> 
+            <th>Repeticiones</th>
+          </tr>
+          <tr align="center">
+            <td>Dominadas/Jalon al pecho</td>
+            <td>4</td>
+            <td>10</td>
+          </tr>
+          <tr align="center">
+            <td>Remo con barra</td>
+            <td>4</td>
+            <td>5-6</td>
+          </tr>
+          <tr align="center">
+            <td>Pull Over</td>
+            <td>4</td>
+            <td>10-12</td>
+          </tr>
+          <tr align="center">
+            <td>Martillo con mancuernas</td>
+            <td>4</td>
+            <td>10-12</td>
+          </tr>
+          <tr align="center">
+            <td>Curl Biceps en banco </td>
+            <td>4</td>
+            <td>7-10</td>
+      </table>
+      <a href="https://fitgeneration.es/mejores-ejercicios-espalda/">Aqui los mejores ejercicios para espalda :)</a>
+
+        <h2 id="jueves">Jueves</h2>
+        <img src="https://www.musculosespartanos.com/wp-content/uploads/2020/05/sentadilla.jpg"width="500" height="300">
+        <table style="width:80%">
+        <tr align="center">
+                <th>Ejercicio</th>
+                <th>Series</th> 
+                <th>Repeticiones</th>
+              </tr>
+              <tr align="center">
+                <td>Sentadillas con barra</td>
+                <td>4</td>
+                <td>4-6</td>
+              </tr>
+              <tr align="center">
+                <td>Peso muerto</td>
+                <td>4</td>
+                <td>5-6</td>
+              </tr>
+              <tr align="center">
+                <td>Prensa</td>
+                <td>4</td>
+                <td>10-12</td>
+                </tr>
+              <tr align="center">
+                <td>Extension cuadriceps</td>
+                <td>4</td>
+                <td>10-12</td>
+              </tr>
+              <tr align="center">
+                <td>Femoral tumbado</td>
+                <td>4</td>
+                <td>10-12</td>
+        <tr align="center">
+                <td>Gemelos</td>
+                <td>4</td>
+                <td>12-15</td>
+              </tr>
+          </table>
+          <a href="https://evalufit.com/ejercicios/tren-inferior/ejercicios-para-piernas/">Aqui algunos ejercicos mas complementarios</a>
+
+          <h2 id="viernes">Viernes</h2>
+          <img src="https://th.bing.com/th/id/OIP.Qny7uT6UopQGnlUJ_pLT1AHaE8?w=276&h=184&c=7&r=0&o=5&pid=1.7"width="500" height="300">
+          <table style="width:80%">
+        <tr align="center">
+                  <th>Ejercicio</th>
+                  <th>Series</th> 
+                  <th>Repeticiones</th>
+                </tr>
+                <tr align="center">
+                  <td>Curl biceps con mancuerna</td>
+                  <td>4</td>
+                  <td>10-12</td>
+                </tr>
+                <tr align="center">
+                  <td>Curl de biceps en banco inclinado</td>
+                  <td>4</td>
+                  <td>10-12</td>
+                </tr>
+                <tr align="center">
+                  <td>Extension de triceps</td>
+                  <td>4</td>
+                  <td>10-12</td>
+                </tr>
+                <tr align="center">
+                  <td>Press Frances</td>
+                  <td>4</td>
+                  <td>10-12</td>
+        </tr>
+            </table>
+        <a href="https://fullmusculo.com/rutinas-de-ejercicios-para-triceps/">Los mejores ejercicios para brazos</a>
+
+
+    
+    
+</body>
+</html>
