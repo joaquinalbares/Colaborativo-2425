@@ -1,2 +1,2 @@
 # Proyecto Colaborativo CURSO 24-25
-Victor Montiel Buitrago / 1653572
+Este proyecto quiere que practiqueis el flujo de trabajo colaborativo con Git y GitHub.
